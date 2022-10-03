@@ -65,8 +65,8 @@ const promptUser = () => {
 
 const promptEmployees = employeeData => {
     console.log(`
-   ( M | a | n | a | g | e | r ) ( A | d | d | e | d | ! )
-   ( A | d | d ) ( E | m | p | l | o | y | e | e | s | ! )
+   ( M | a | n | a | g | e | r )  ( A | d | d | e | d | ! )
+   ( A | d | d )   ( E | m | p | l | o | y | e | e | s | ! )
    `);
     return inquirer.prompt([
         {
