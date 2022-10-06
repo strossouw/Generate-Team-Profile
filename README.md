@@ -9,7 +9,6 @@ This project is a node.js application. It will take user inputs to generate a we
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
-* [Contribution](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
   
