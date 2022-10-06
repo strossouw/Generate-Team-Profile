@@ -4,9 +4,9 @@ describe("Employee", () => {
 
   beforeEach(() => {
     employee = new Employee(
-      "Dave",
+      "Testy",
       1,
-      "dave@testcase.email",
+      "Testy@testcase.email",
       "Employee"
     );
   });
@@ -14,7 +14,7 @@ describe("Employee", () => {
   describe("getName", () => {
     it("you got the name!", () => {
       const printedName = employee.getName();
-      expect(printedName).toBe("Dave");
+      expect(printedName).toBe("Testy");
     });
   });
   describe("getId", () => {
@@ -26,13 +26,7 @@ describe("Employee", () => {
   describe("getEmail", () => {
     it("You got the email!", () => {
       const printedEmail = employee.getEmail();
-      expect(printedEmail).toBe("dave@testcase.email");
-    });
-  });
-  describe("getRole", () => {
-    it("You got the Role", () => {
-      const printedRole = employee.getRole();
-      expect(printedRole).toBe("Employee");
+      expect(printedEmail).toBe("Testy@testcase.email");
     });
   });
 });

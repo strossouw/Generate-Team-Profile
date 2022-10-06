@@ -5,9 +5,9 @@ describe("Intern", () => {
   let intern;
   beforeEach(() => {
     intern = new Intern(
-        "Dave",
+        "Testy",
         1,
-        "dave@testcase.email", 
+        "Testy@testcase.email", 
         "UW-Milwaukee"
         );
   });
@@ -19,10 +19,4 @@ describe("Intern", () => {
     });
   });
 
-  describe("getRole", () => {
-    it("You got the Role", () => {
-      const printedRole = intern.getRole();
-      expect(printedRole).toBe("Intern");
-    });
-  });
 });

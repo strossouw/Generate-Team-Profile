@@ -3,16 +3,16 @@ describe("Manager", () => {
   let manager;
   beforeEach(() => {
     manager = new Manager(
-        "Dave",
+        "Testy",
         1,
-        "dave@testcase.email",
+        "Testy@testcase.email",
         "859"
         );
   });
-  describe("getRole", () => {
-    it("You got the Role", () => {
-      const printedRole = manager.getRole();
-      expect(printedRole).toBe("Manager");
+  describe("getOfficeNumber", () => {
+    it("You got the Office Number", () => {
+      const printedOffNum = manager.getOfficeNumber();
+      expect(printedOffNum).toBe("859");
     });
   });
 });
