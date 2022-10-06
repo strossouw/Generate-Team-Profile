@@ -225,3 +225,4 @@ promptUser()
     .then(pageHTML => {
         return writeFile(pageHTML);
     })
+
